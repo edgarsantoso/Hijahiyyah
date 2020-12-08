@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EAA1A442566A26900096063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAA1A432566A26900096063 /* AppDelegate.swift */; };
+		4EAA1A462566A26900096063 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAA1A452566A26900096063 /* SceneDelegate.swift */; };
+		4EAA1A482566A26900096063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAA1A472566A26900096063 /* ViewController.swift */; };
+		4EAA1A4B2566A26900096063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A492566A26900096063 /* Main.storyboard */; };
+		4EAA1A4D2566A26D00096063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A4C2566A26D00096063 /* Assets.xcassets */; };
+		4EAA1A502566A26D00096063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A4E2566A26D00096063 /* LaunchScreen.storyboard */; };
+		4EAA1A5A2566B1C200096063 /* اَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A592566B1C200096063 /* اَ.mp3 */; };
+		4EAA1A772566B5C200096063 /* حَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A5C2566B5C100096063 /* حَ.mp3 */; };
+		4EAA1A782566B5C200096063 /* قَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A5D2566B5C100096063 /* قَ.mp3 */; };
+		4EAA1A792566B5C200096063 /* غَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A5E2566B5C100096063 /* غَ.mp3 */; };
+		4EAA1A7A2566B5C200096063 /* شَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A5F2566B5C100096063 /* شَ.mp3 */; };
+		4EAA1A7B2566B5C200096063 /* عَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A602566B5C100096063 /* عَ.mp3 */; };
+		4EAA1A7C2566B5C200096063 /* رَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A612566B5C100096063 /* رَ.mp3 */; };
+		4EAA1A7D2566B5C200096063 /* ضَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A622566B5C100096063 /* ضَ.mp3 */; };
+		4EAA1A7E2566B5C200096063 /* ذَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A632566B5C100096063 /* ذَ.mp3 */; };
+		4EAA1A7F2566B5C200096063 /* ظَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A642566B5C100096063 /* ظَ.mp3 */; };
+		4EAA1A802566B5C200096063 /* صَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A652566B5C100096063 /* صَ.mp3 */; };
+		4EAA1A812566B5C200096063 /* يَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A662566B5C100096063 /* يَ.mp3 */; };
+		4EAA1A822566B5C200096063 /* طَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A672566B5C100096063 /* طَ.mp3 */; };
+		4EAA1A832566B5C200096063 /* خَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A682566B5C100096063 /* خَ.mp3 */; };
+		4EAA1A842566B5C200096063 /* تَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A692566B5C100096063 /* تَ.mp3 */; };
+		4EAA1A852566B5C200096063 /* هَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A6A2566B5C100096063 /* هَ.mp3 */; };
+		4EAA1A862566B5C200096063 /* ثَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A6B2566B5C100096063 /* ثَ.mp3 */; };
+		4EAA1A872566B5C200096063 /* جَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A6C2566B5C100096063 /* جَ.mp3 */; };
+		4EAA1A882566B5C200096063 /* وَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A6D2566B5C100096063 /* وَ.mp3 */; };
+		4EAA1A892566B5C200096063 /* لَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A6E2566B5C100096063 /* لَ.mp3 */; };
+		4EAA1A8A2566B5C200096063 /* فَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A6F2566B5C200096063 /* فَ.mp3 */; };
+		4EAA1A8B2566B5C200096063 /* زَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A702566B5C200096063 /* زَ.mp3 */; };
+		4EAA1A8C2566B5C200096063 /* سَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A712566B5C200096063 /* سَ.mp3 */; };
+		4EAA1A8D2566B5C200096063 /* مَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A722566B5C200096063 /* مَ.mp3 */; };
+		4EAA1A8E2566B5C200096063 /* كَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A732566B5C200096063 /* كَ.mp3 */; };
+		4EAA1A8F2566B5C200096063 /* دَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A742566B5C200096063 /* دَ.mp3 */; };
+		4EAA1A902566B5C200096063 /* بَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A752566B5C200096063 /* بَ.mp3 */; };
+		4EAA1A912566B5C200096063 /* نَ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EAA1A762566B5C200096063 /* نَ.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4EAA1A402566A26900096063 /* Hijaiyah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hijaiyah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAA1A432566A26900096063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EAA1A452566A26900096063 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4EAA1A472566A26900096063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EAA1A4A2566A26900096063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EAA1A4C2566A26D00096063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EAA1A4F2566A26D00096063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EAA1A512566A26D00096063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EAA1A592566B1C200096063 /* اَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "اَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/اَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A5C2566B5C100096063 /* حَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "حَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/حَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A5D2566B5C100096063 /* قَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "قَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/قَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A5E2566B5C100096063 /* غَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "غَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/غَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A5F2566B5C100096063 /* شَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "شَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/شَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A602566B5C100096063 /* عَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "عَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/عَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A612566B5C100096063 /* رَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "رَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/رَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A622566B5C100096063 /* ضَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ضَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/ضَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A632566B5C100096063 /* ذَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ذَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/ذَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A642566B5C100096063 /* ظَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ظَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/ظَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A652566B5C100096063 /* صَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "صَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/صَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A662566B5C100096063 /* يَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "يَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/يَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A672566B5C100096063 /* طَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "طَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/طَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A682566B5C100096063 /* خَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "خَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/خَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A692566B5C100096063 /* تَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "تَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/تَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A6A2566B5C100096063 /* هَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "هَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/هَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A6B2566B5C100096063 /* ثَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ثَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/ثَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A6C2566B5C100096063 /* جَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "جَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/جَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A6D2566B5C100096063 /* وَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "وَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/وَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A6E2566B5C100096063 /* لَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "لَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/لَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A6F2566B5C200096063 /* فَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "فَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/فَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A702566B5C200096063 /* زَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "زَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/زَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A712566B5C200096063 /* سَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "سَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/سَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A722566B5C200096063 /* مَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "مَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/مَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A732566B5C200096063 /* كَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "كَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/كَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A742566B5C200096063 /* دَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "دَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/دَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A752566B5C200096063 /* بَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "بَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/بَ.mp3"; sourceTree = "<group>"; };
+		4EAA1A762566B5C200096063 /* نَ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "نَ.mp3"; path = "../../../../../Downloads/Kumpulan Sound Hijaiyah/Huruf Tanda Baca Fathah/نَ.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EAA1A3D2566A26900096063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EAA1A372566A26900096063 = {
+			isa = PBXGroup;
+			children = (
+				4EAA1A422566A26900096063 /* Hijaiyah */,
+				4EAA1A412566A26900096063 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EAA1A412566A26900096063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EAA1A402566A26900096063 /* Hijaiyah.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EAA1A422566A26900096063 /* Hijaiyah */ = {
+			isa = PBXGroup;
+			children = (
+				4EAA1A582566B18900096063 /* Sound */,
+				4EAA1A432566A26900096063 /* AppDelegate.swift */,
+				4EAA1A452566A26900096063 /* SceneDelegate.swift */,
+				4EAA1A472566A26900096063 /* ViewController.swift */,
+				4EAA1A492566A26900096063 /* Main.storyboard */,
+				4EAA1A4C2566A26D00096063 /* Assets.xcassets */,
+				4EAA1A4E2566A26D00096063 /* LaunchScreen.storyboard */,
+				4EAA1A512566A26D00096063 /* Info.plist */,
+			);
+			path = Hijaiyah;
+			sourceTree = "<group>";
+		};
+		4EAA1A582566B18900096063 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				4EAA1A592566B1C200096063 /* اَ.mp3 */,
+				4EAA1A602566B5C100096063 /* عَ.mp3 */,
+				4EAA1A622566B5C100096063 /* ضَ.mp3 */,
+				4EAA1A642566B5C100096063 /* ظَ.mp3 */,
+				4EAA1A6F2566B5C200096063 /* فَ.mp3 */,
+				4EAA1A5E2566B5C100096063 /* غَ.mp3 */,
+				4EAA1A6A2566B5C100096063 /* هَ.mp3 */,
+				4EAA1A732566B5C200096063 /* كَ.mp3 */,
+				4EAA1A6E2566B5C100096063 /* لَ.mp3 */,
+				4EAA1A722566B5C200096063 /* مَ.mp3 */,
+				4EAA1A762566B5C200096063 /* نَ.mp3 */,
+				4EAA1A5D2566B5C100096063 /* قَ.mp3 */,
+				4EAA1A712566B5C200096063 /* سَ.mp3 */,
+				4EAA1A652566B5C100096063 /* صَ.mp3 */,
+				4EAA1A5F2566B5C100096063 /* شَ.mp3 */,
+				4EAA1A672566B5C100096063 /* طَ.mp3 */,
+				4EAA1A6D2566B5C100096063 /* وَ.mp3 */,
+				4EAA1A662566B5C100096063 /* يَ.mp3 */,
+				4EAA1A752566B5C200096063 /* بَ.mp3 */,
+				4EAA1A692566B5C100096063 /* تَ.mp3 */,
+				4EAA1A6B2566B5C100096063 /* ثَ.mp3 */,
+				4EAA1A6C2566B5C100096063 /* جَ.mp3 */,
+				4EAA1A5C2566B5C100096063 /* حَ.mp3 */,
+				4EAA1A682566B5C100096063 /* خَ.mp3 */,
+				4EAA1A742566B5C200096063 /* دَ.mp3 */,
+				4EAA1A632566B5C100096063 /* ذَ.mp3 */,
+				4EAA1A612566B5C100096063 /* رَ.mp3 */,
+				4EAA1A702566B5C200096063 /* زَ.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EAA1A3F2566A26900096063 /* Hijaiyah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EAA1A542566A26D00096063 /* Build configuration list for PBXNativeTarget "Hijaiyah" */;
+			buildPhases = (
+				4EAA1A3C2566A26900096063 /* Sources */,
+				4EAA1A3D2566A26900096063 /* Frameworks */,
+				4EAA1A3E2566A26900096063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hijaiyah;
+			productName = Hijaiyah;
+			productReference = 4EAA1A402566A26900096063 /* Hijaiyah.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EAA1A382566A26900096063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					4EAA1A3F2566A26900096063 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 4EAA1A3B2566A26900096063 /* Build configuration list for PBXProject "Hijaiyah" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EAA1A372566A26900096063;
+			productRefGroup = 4EAA1A412566A26900096063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EAA1A3F2566A26900096063 /* Hijaiyah */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EAA1A3E2566A26900096063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAA1A772566B5C200096063 /* حَ.mp3 in Resources */,
+				4EAA1A912566B5C200096063 /* نَ.mp3 in Resources */,
+				4EAA1A8E2566B5C200096063 /* كَ.mp3 in Resources */,
+				4EAA1A8C2566B5C200096063 /* سَ.mp3 in Resources */,
+				4EAA1A782566B5C200096063 /* قَ.mp3 in Resources */,
+				4EAA1A502566A26D00096063 /* LaunchScreen.storyboard in Resources */,
+				4EAA1A8D2566B5C200096063 /* مَ.mp3 in Resources */,
+				4EAA1A872566B5C200096063 /* جَ.mp3 in Resources */,
+				4EAA1A8A2566B5C200096063 /* فَ.mp3 in Resources */,
+				4EAA1A8F2566B5C200096063 /* دَ.mp3 in Resources */,
+				4EAA1A7A2566B5C200096063 /* شَ.mp3 in Resources */,
+				4EAA1A802566B5C200096063 /* صَ.mp3 in Resources */,
+				4EAA1A862566B5C200096063 /* ثَ.mp3 in Resources */,
+				4EAA1A7B2566B5C200096063 /* عَ.mp3 in Resources */,
+				4EAA1A7C2566B5C200096063 /* رَ.mp3 in Resources */,
+				4EAA1A5A2566B1C200096063 /* اَ.mp3 in Resources */,
+				4EAA1A832566B5C200096063 /* خَ.mp3 in Resources */,
+				4EAA1A4D2566A26D00096063 /* Assets.xcassets in Resources */,
+				4EAA1A822566B5C200096063 /* طَ.mp3 in Resources */,
+				4EAA1A852566B5C200096063 /* هَ.mp3 in Resources */,
+				4EAA1A8B2566B5C200096063 /* زَ.mp3 in Resources */,
+				4EAA1A902566B5C200096063 /* بَ.mp3 in Resources */,
+				4EAA1A7F2566B5C200096063 /* ظَ.mp3 in Resources */,
+				4EAA1A792566B5C200096063 /* غَ.mp3 in Resources */,
+				4EAA1A4B2566A26900096063 /* Main.storyboard in Resources */,
+				4EAA1A7E2566B5C200096063 /* ذَ.mp3 in Resources */,
+				4EAA1A812566B5C200096063 /* يَ.mp3 in Resources */,
+				4EAA1A882566B5C200096063 /* وَ.mp3 in Resources */,
+				4EAA1A842566B5C200096063 /* تَ.mp3 in Resources */,
+				4EAA1A892566B5C200096063 /* لَ.mp3 in Resources */,
+				4EAA1A7D2566B5C200096063 /* ضَ.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EAA1A3C2566A26900096063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAA1A482566A26900096063 /* ViewController.swift in Sources */,
+				4EAA1A442566A26900096063 /* AppDelegate.swift in Sources */,
+				4EAA1A462566A26900096063 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4EAA1A492566A26900096063 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EAA1A4A2566A26900096063 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EAA1A4E2566A26D00096063 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EAA1A4F2566A26D00096063 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EAA1A522566A26D00096063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EAA1A532566A26D00096063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EAA1A552566A26D00096063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hijaiyah/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = growdev.Hijaiyah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EAA1A562566A26D00096063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hijaiyah/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = growdev.Hijaiyah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EAA1A3B2566A26900096063 /* Build configuration list for PBXProject "Hijaiyah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAA1A522566A26D00096063 /* Debug */,
+				4EAA1A532566A26D00096063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EAA1A542566A26D00096063 /* Build configuration list for PBXNativeTarget "Hijaiyah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAA1A552566A26D00096063 /* Debug */,
+				4EAA1A562566A26D00096063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EAA1A382566A26900096063 /* Project object */;
+}
